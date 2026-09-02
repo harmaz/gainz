@@ -31,6 +31,8 @@ Pay estimates are typical ranges, not promises. Local rules still apply (busines
 
 Pushes and pull requests to `main` run the same CI as [my-first-cursor-web-app](https://github.com/harmaz/my-first-cursor-web-app): Node 22, `npm ci`, lint, and production build. See [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
-## Deploy on Vercel
+## Live
 
-Import the GitHub repo at [vercel.com/new](https://vercel.com/new/import?s=harmaz/gainz). Framework is Next.js; no extra env vars. After the first import, every push to `main` deploys automatically.
+https://gainz-iota.vercel.app/
+
+Pushes to `main` on [github.com/harmaz/gainz](https://github.com/harmaz/gainz) deploy automatically.
